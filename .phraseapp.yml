@@ -1,12 +1,12 @@
 phraseapp:
-  project_id: '9bc24e0343bd5fb2a850255289cf9265'
+  project_id: 9bc24e0343bd5fb2a850255289cf9265
   file_format: json
   push:
     sources:
     - file: ./public/locales/en.json
       params:
         file_format: json
-        locale_id: 37e6092076f93fe1425abe084420ff5d
+        locale_id: en
   pull:
     targets:
     - file: ./public/locales/*.json
