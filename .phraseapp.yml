@@ -3,11 +3,11 @@ phraseapp:
   file_format: json
   push:
     sources:
-    - file: ./public/locales/en/translation.json
+    - file: ./public/locales/en.json
       params:
         file_format: json
   pull:
     targets:
-    - file: ./public/locales/<locale_name>/translation.json
+    - file: ./public/locales/*.json
       params:
         file_format: json
