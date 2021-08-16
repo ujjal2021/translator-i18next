@@ -9,7 +9,7 @@ phraseapp:
         locale_id: en
   pull:
     targets:
-    - file: ./public/locales/<locale_name>/translation.json
+    - file: ./public/locales/<locale_code>/translation.json
       params:
         file_format: i18next
         
