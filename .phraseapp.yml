@@ -1,15 +1,15 @@
 phraseapp:
   project_id: 9bc24e0343bd5fb2a850255289cf9265
-  file_format: json
+  file_format: i18next
   push:
     sources:
     - file: ./public/locales/en.json
       params:
-        file_format: json
+        file_format: i18next
         locale_id: en
   pull:
     targets:
     - file: ./public/locales/*.json
       params:
-        file_format: json
+        file_format: i18next
         
