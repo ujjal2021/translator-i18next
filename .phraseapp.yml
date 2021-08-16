@@ -9,7 +9,7 @@ phraseapp:
         file_format: json
   pull:
     targets:
-    - file: ./public/locales/;/translation.json
+    - file: ./public/locales/*/translation.json
       params:
         file_format: json
 </code>
