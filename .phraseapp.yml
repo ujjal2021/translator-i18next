@@ -8,6 +8,6 @@ phraseapp:
         file_format: json
   pull:
     targets:
-    - file: ./config/locales/<locale_name>/translation.json
+    - file: ./public/locales/<locale_name>/translation.json
       params:
         file_format: json
