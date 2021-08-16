@@ -1,7 +1,7 @@
 {
-  "enroll_to_program": "Enroll to Program",
-  "select_field_to_program": "Select Fields for Enrollment",
-  "select_all_field": "Select all fields",
   "de-select_all_field": "De-select all fields",
-  "new_key_detected": ""
+  "enroll_to_program": "Enroll to Program",
+  "new_key_detected": "new",
+  "select_all_field": "Select all fields",
+  "select_field_to_program": "Select Fields for Enrollment"
 }
