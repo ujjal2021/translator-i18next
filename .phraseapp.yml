@@ -1,4 +1,4 @@
-<code>
+
 phraseapp:
   project_id: 9bc24e0343bd5fb2a850255289cf9265
   file_format: json
@@ -7,4 +7,3 @@ phraseapp:
     - file: ./public/locales/en/translation.json
       params:
         file_format: json
-</code>
